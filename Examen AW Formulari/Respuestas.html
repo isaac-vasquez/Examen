@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respuestas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<div class= "main">
+    <div class= "nombres">
+       
+        <ul>
+        <li>Nombre<br><input type="text" name="Nombre"></li>
+        <li>Apellidos<br><input type="text" name="apellidos"></li>
+        <li>Clase<br><input type="text" name="Clase"></li>
+        </ul>
+
+    </div>
+    <section>
+        <div class= "Ejercicios">
+            <h3>Ejercicio 1.</h3>
+                <p><b>¿Cuál de estas palabras debe llevar acento? <em>Ecológico</em></b></p>
+                <ul>
+                <li>Selecciona las que creas convenientes.</li>
+                <li>
+                    <input type="checkbox" name="Acentos[]" value="Casa"> Casa
+                    <input type="checkbox" name="Acentos[]" value="Coche" > Coche
+                    <input type="checkbox" name="Acentos[]" value="Sistema"> Sistema
+                    <input type="checkbox" name="Acentos[]" value="Ecologico"> Ecologico
+                </li>
+                </ul>
+                <br> <hr>
+            
+            <h3>Ejercicio 2.</h3>
+                <p><b>¿A qué palabra pertenece esta definición?</b></p>
+                   
+                        <p>Exageración de un hecho, una circunstancia o un relato. <em>Hipérbole</em></p>
+                        <select name="Ejercicio 2">
+                        <option value="metafora">Metáfora</option>
+                        <option value="hiperbole">Hipérbole</option>
+                        <option value="comparacion">Comparación</option>
+                        <option value="personificacion">Personificación</option>
+                        </select>
+                   
+                    <br>
+                        <br> 
+                        <hr>
+       
+            <h3>Ejercicio 3.</h3>
+                <p><b>¿De qué tipo es la palabra camión?</b> <em>Aguda</em></p>
+                <div class= "ej3">
+                <ol>
+                <li>
+                    
+                    <input type="radio" name="tipo" value= "aguda"> Aguda
+                    <input type="radio" name="tipo" value= "plana"> Plana
+                    <input type="radio" name="tipo" value= "esdrujula"> Esdrújula
+                </li>
+                </ol>
+                </div>
+       
+                <br> <hr>
+
+            <h3>Ejercicio 4.</h3>
+                <p><b>¿Cuántas sílabas tiene esta palabra?</b> <em>3</em></p>
+                <p><b>Pesaje</b></p>
+                <br>
+                
+                    <select name="Ejercicio 4">
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+              
+                <br> 
+                <br>
+                <hr>
+            
+                <h3>Ejercicio 5.</h3>
+                    <p><b>Selecciona el infinitivo.</b> <em>Correr</em></p>
+                   
+                        <input type="checkbox" name="Infinitivo[]" value="Corremos"> Corremos
+                        <input type="checkbox" name="Infinitivo[]" value="Corres" > Corres
+                        <input type="checkbox" name="Infinitivo[]" value="Correr"> Correr
+                        <input type="checkbox" name="Infinitivo[]" value="Corriste"> Corriste
+                    
+                    <br> 
+                    <br>
+                    <hr>
+                
+                    <h3>Ejercicio 6.</h3>
+                        <p><b>¿Qué tipo de palabra es "Árbol"?</b> <em>Sustantivo</em></p>
+                        <p><b>Selecciona solo una.</b></p>
+                        <br>
+                        <br>
+                            <select name="Ejercicio 6">
+                                <option value="adjetivo">Adjetivo</option>
+                                <option value="verbo">Verbo</option>
+                                <option value="sustantivo">Sustantivo</option>
+                                <option value="pronombre">Pronombre</option>
+                            </select>
+                       
+                    
+                        <br> 
+                        <br>
+                        <hr>
+                    
+                    <h3>Ejercicio 7.</h3>
+                        <p><b>Selecciona los sinónimos de "Tienda".</b> <em>Bazar, comercio y tenderete.</em></p>
+                            <select multiple name="sinonimos[]">
+                                <option value="Bazar">Bazar</option>
+                                <option value="Casa">Casa</option>
+                                <option value="Comercio">Comercio</option>
+                                <option value="Miscelaneo">Miscelaneo</option>
+                                <option value="Tenderete">Tenderete</option>
+                            </select>
+                            <br> 
+                            <br>
+                            <hr>
+                    
+                    <h3>Ejercicio 8.</h3>
+                        <p><b>Selecciona los antónimos de "Trabajador".</b> <em>Gandul, despreocupado y vago.</em></p>
+                            <select multiple name="antonimos[]">
+                                <option value="Espabilado">Espabilado</option>
+                                <option value="Gandul">Gandul</option>
+                                <option value="Despreocupado">Despreocupado</option>
+                                <option value="Rapido">Rápido</option>
+                                <option value="Vago">Vago</option>
+                            </select>
+                            <br>
+                            <br> 
+                            <hr>
+
+                    <h3>Ejercicio 9.</h3>
+                    <p><b>Escribe una redacción de un mínimo de 100 carácteres, máximo 300.</b></p>
+
+                    <p>Describe tu futuro perfecto.</p><br>
+                        <textarea name="redaccion" cols="60" rows="4" maxlength="300"
+                            placeholder="Entre 100 y 300 carácteres"></textarea>
+                    
+                    <br> 
+                    <br>
+                    <hr>
+
+                    <h3>Ejercicio 10.</h3>
+                        <p><b>Pon la nota que has sacado en el examen.</b></p>
+                        <select name="Ejercicio 10">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select>
+                            <br>
+                            <div id="enlace2">
+                                <form action="Respuestas.html">
+                                    <input type="submit" value="Entregar" />
+                            </form>
+                            </div>
+                        
+        </div>
+   </section> 
+   
+</div>   
+</body>
+
+
+
+
+
+
+</html>
